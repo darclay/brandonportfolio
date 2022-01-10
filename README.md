@@ -8,9 +8,9 @@ Have a administrative login, which will give the site administrator access to ad
 
 ## Libraries, Dependencies, & Scripts
 
-### React Documentation
+### React
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
@@ -26,12 +26,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### React Router
 
 This is used for directing the user through React Components.
-(https://reactrouter.com/docs/en/v6)
+[React Router Docs](https://reactrouter.com/docs/en/v6)
 
 ### Ruby on Rails
 
 This is the server-side app which is the framework for our database.
-(https://rubyonrails.org/)
+[Ruby on Rails Docs](https://rubyonrails.org/)
+  #### Scripts
+  `rails server` or `rails s` : runs the rails server
+
+### PostgreSQL
+
+(https://www.postgresql.org/)
 
 |     Library      | Description                                                            |
 | :--------------: | :----------------------------------------------------------------------|

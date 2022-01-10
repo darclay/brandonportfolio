@@ -18,8 +18,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm start`
-
+`npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
@@ -32,21 +31,23 @@ This is used for directing the user through React Components.
 
 This is the server-side app which is the framework for our database.
 [Ruby on Rails Docs](https://rubyonrails.org/)
-  #### Scripts
-  `rails server` or `rails s` : runs the rails server
+
+`rails server` or `rails s` : runs the rails server
 
 ### PostgreSQL
+This is the database used for all data used on this site.
+[PostgreSQL Documentation](https://www.postgresql.org/)
 
-(https://www.postgresql.org/)
+### JWT and bcrypt
+This is used for user athentication and building JSON web tokens.
 
-|     Library      | Description                                                            |
-| :--------------: | :----------------------------------------------------------------------|
-|      React       | _This is used for the frontend development of this site_               |
-|   React Router   | _Used for directing the user through React Components._                |
-|      Rails       | _This is the server-side app which is the framework for our database._ |
-|     PostgreSQL   | _This is the database used for all data used on this site._            |
-|  JWT and bcrypt  | _This is used for user athentication and building JSON web tokens_     |
+### Netlify
+This site is published on Netlify.  
+[Netlify Docs](https://docs.netlify.com/) 
 
+### Heroku
+This is the deployed database.
+[Documentation](https://devcenter.heroku.com/categories/reference)
 ### WireFrame
 
 Home

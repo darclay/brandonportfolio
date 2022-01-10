@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# OVERVIEW
+This site is dedicated to Brandon Gurule.  Brandon is a practicing animator with years of drawing experience.  Brandon received his formal education through Don Bluth University in Scottsdale, Arizona.  Brandon loves film and animation and dreams of ways to tell meaningful stories.  This site is about that dream and illustrates his skills and talent.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MVP GOALS
+The minimal viable product for Brandon's Portfolio is:
+Viewable frontend site which show cases Brandon's Bio and his work.
+Have a administrative login, which will give the site administrator access to add, edit, and delete projects.  These will include: name of project, a description, up to three photos of said project.
 
-## Available Scripts
+## Libraries, Dependencies, & Scripts
 
-In the project directory, you can run:
+### React Documentation
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### React Router
 
-### `npm test`
+This is used for directing the user through React Components.
+(https://reactrouter.com/docs/en/v6)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Ruby on Rails
 
-### `npm run build`
+This is the server-side app which is the framework for our database.
+(https://rubyonrails.org/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+|     Library      | Description                                                            |
+| :--------------: | :----------------------------------------------------------------------|
+|      React       | _This is used for the frontend development of this site_               |
+|   React Router   | _Used for directing the user through React Components._                |
+|      Rails       | _This is the server-side app which is the framework for our database._ |
+|     PostgreSQL   | _This is the database used for all data used on this site._            |
+|  JWT and bcrypt  | _This is used for user athentication and building JSON web tokens_     |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### WireFrame
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Home
+![](https://i.imgur.com/#)
+Projects
+![](https://i.imgur.com/#)
+Login
+![](https://i.imgur.com/#)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Getting Started with Create React App
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

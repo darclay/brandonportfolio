@@ -9,13 +9,11 @@ Have a administrative login, which will give the site administrator access to ad
 ## Libraries, Dependencies, & Scripts
 
 ### React
-
 Learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Deployment
-
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 `npm start`
@@ -23,20 +21,12 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### React Router
-
 This is used for directing the user through React Components.
 [React Router Docs](https://reactrouter.com/docs/en/v6)
 
-### Ruby on Rails
-
-This is the server-side app which is the framework for our database.
-[Ruby on Rails Docs](https://rubyonrails.org/)
-
-`rails server` or `rails s` : runs the rails server
-
-### PostgreSQL
+### Airtable
 This is the database used for all data used on this site.
-[PostgreSQL Documentation](https://www.postgresql.org/)
+[PostgreSQL Documentation](https://www.airtable.com/)
 
 ### JWT and bcrypt
 This is used for user athentication and building JSON web tokens.
@@ -48,8 +38,8 @@ This site is published on Netlify.
 ### Heroku
 This is the deployed database.
 [Documentation](https://devcenter.heroku.com/categories/reference)
-### WireFrame
 
+### WireFrame
 Home
 ![](https://i.imgur.com/#)
 Projects

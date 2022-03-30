@@ -1,0 +1,35 @@
+.LeftBannerHomeDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: calc(100vh - 78px);
+  background-color: #e22020;
+  overflow: hidden;
+  border-right: 3px solid #f8f004;
+  box-shadow: 3px 0px 10px 0px black;
+}
+.headshotDiv {
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 10px 2px black;
+}
+.headshotDiv img {
+  height: 100%;
+  width: auto;
+}
+.missionTitle .title {
+  color: #008fd3;
+  -webkit-text-stroke: 1px black;
+  font-size: 1em;
+}
+.missionStatement .statement {
+  font-size: .7em;
+  padding-left: 20px;
+  padding-right: 20px;
+}

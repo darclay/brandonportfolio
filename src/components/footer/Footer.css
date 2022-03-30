@@ -1,0 +1,41 @@
+.footerDiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 75px;
+  background-color: #e22020;
+  border-top: 3px solid #f8f004;
+  box-shadow: 0px -3px 10px 0px black;  
+}
+.signatureDiv, .imgurDiv, .resumeDiv, .youtubeDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  height: 50px;
+  width: 50px;
+}
+.footerIcon {
+  height: 40px;
+  width: 40px;
+}
+.sigIcon, .resumeIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  background-color: black;
+  margin: 3px;
+  color: white;
+  font-size: .2em;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.imgurDiv .footerIcon, .youtubeDiv .footerIcon {
+  padding-top: 4px;
+}
+
+

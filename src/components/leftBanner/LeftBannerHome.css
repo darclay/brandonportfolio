@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 500px;
-  height: calc(100vh - 78px);
+  width: 300px;
+  height: calc(100vh - 153px);
   background-color: #e22020;
   overflow: hidden;
   border-right: 3px solid #f8f004;
@@ -14,8 +14,8 @@
   box-sizing: border-box;
   background-color: white;
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
+  height: 275px;
+  width: 275px;
   overflow: hidden;
   box-shadow: inset 0px 0px 10px 2px black;
 }

@@ -5,3 +5,34 @@
   width: calc(100vw - 300px);
   height: calc(100vh - 153px);
 }
+.logo {
+  padding-top: 20px;
+  height: auto;
+  width: 400px;
+  filter: drop-shadow(0px 5px 4px #000);
+}
+.educationTitle h4, .experienceTitle h4 {
+  color: #008fd3;
+  -webkit-text-stroke: 1px black;
+  font-size: 1.2em;
+}
+.infoDiv {
+  display: flex;
+  margin-top: -100px;
+}
+.educationWrapper, .experienceWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.educationInfo {
+  width: 60%;
+  line-height: .6em;
+}
+.educationSpacing {
+  padding-top: 5px;
+}
+.experienceInfo {
+  width: 60%;
+}

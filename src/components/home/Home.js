@@ -1,13 +1,17 @@
-import './Home.css';
-import Logo from '../resources/images/BrandonLogo.png';
+import './Home.css'
+import Logo from '../resources/images/BrandonLogo.png'
+import backgroundGif from '../../pics_videos/test.gif'
 
 function Home(){
   return (
     <div className="HomeDiv">
 {/*THIS IS WHERE WE WILL ADD THE GIF IN THE BACKGROUND*/}    
+     
+      {/* <img src={backgroundGif} className="abcd"></img> */}
       <div className="logoDiv">
         <img className="logo" src={Logo}></img>
       </div>
+
 
       <div className="infoDiv">
         <div className="educationWrapper">

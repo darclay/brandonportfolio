@@ -15,7 +15,7 @@ function Footer(){
       responseType: "blob"
     }).then((res)=>{
       console.log(res)
-      FileDownload(res.data, "brandon_resume.png")
+      FileDownload(res.data, "brandon_resume.pdf")
     })
   }
   
@@ -35,9 +35,9 @@ function Footer(){
       </div>
 
       <div className="resumeDiv">
-        <div className="resumeIcon footerIcon">
+        <div className="resumeIcon footerIcon" onClick={(ev)=>{download(ev)}}>
           {/* This is the place where the download of the resume file will occur. */}
-          <a onClick={(ev)=>{download(ev)}}>download</a>
+          <p>resume</p>
         </div>
       </div>
 

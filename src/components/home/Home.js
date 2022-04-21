@@ -18,8 +18,7 @@ function Home(){
           <div className="educationInfo">
             <p className="educationSpacing">Highlands Ranch Highschool</p>
             <p>Highschool Diploma - 2020</p>
-            <br/>
-            <p>Don Bluth University</p>
+            <p id="newEd">Don Bluth University</p>
             <p>Certificate Program - 2022</p>
           </div>
         </div>

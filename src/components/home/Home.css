@@ -28,11 +28,14 @@
 }
 .educationInfo {
   width: 60%;
-  line-height: .6em;
+  /* line-height: .6em; */
 }
 .educationSpacing {
   padding-top: 5px;
 }
 .experienceInfo {
   width: 60%;
+}
+#newEd {
+  padding-top: 1em;
 }

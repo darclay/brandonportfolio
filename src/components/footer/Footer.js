@@ -10,7 +10,7 @@ function Footer(){
     ev.preventDefault()
     console.log('clicked')
     Axios({
-      url: "http://localhost:5000",
+      url: "http://localhost:5000/server",
       method: "GET",
       responseType: "blob"
     }).then((res)=>{

@@ -4,7 +4,7 @@ const cors = require('cors')
 const app = express()
 app.use(cors())
 
-app.get('/',(req, res)=>{
+app.get('/server',(req, res)=>{
   res.download('test_resume.pdf')
 })
 

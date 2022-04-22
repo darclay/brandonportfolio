@@ -1,16 +1,13 @@
 import './Home.css'
 import Logo from '../../assets/images/BrandonLogo.png'
+import ImgSlider from '../carousel/ImgSlider';
 
 function Home(){
   return (
     <div className="HomeDiv">
-{/*THIS IS WHERE WE WILL ADD THE GIF IN THE BACKGROUND*/}    
-     
-      {/* <img src={backgroundGif} className="abcd"></img> */}
       <div className="logoDiv">
         <img className="logo" src={Logo}></img>
       </div>
-
 
       <div className="infoDiv">
         <div className="educationWrapper">
@@ -39,7 +36,7 @@ function Home(){
       </div>
 
       <div className="carouselWrapper">
-        {/* THIS IS WHERE THE CAROUSEL WILL GO */}
+        <ImgSlider />
       </div>
     
     </div>

@@ -25,5 +25,13 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.backgroundGIF {
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: calc(100vw - 300px);
+  z-index: -1;
+}
 
 

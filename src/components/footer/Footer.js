@@ -1,23 +1,9 @@
-import './Footer.css';
-import imgurPic from '../resources/icons/imgur.png';
-import youtubePic from '../resources/icons/youtube.png';
-import Axios from 'axios';
-import FileDownload from 'js-file-download';
+import './Footer.css'
+import imgurPic from '../../assets/icons/imgur.png'
+import youtubePic from '../../assets/icons/youtube.png'
 
 
 function Footer(){
-  const download = (ev) => {
-    ev.preventDefault()
-    console.log('clicked')
-    Axios({
-      url: "http://localhost:5000/server",
-      method: "GET",
-      responseType: "blob"
-    }).then((res)=>{
-      console.log(res)
-      FileDownload(res.data, "brandon_resume.pdf")
-    })
-  }
   
   return(
     <div className="footerDiv">
@@ -35,10 +21,10 @@ function Footer(){
       </div>
 
       <div className="resumeDiv">
-        <div className="resumeIcon footerIcon" onClick={(ev)=>{download(ev)}}>
+        {/* <div className="resumeIcon footerIcon" onClick={(ev)=>{download(ev)}}> */}
           {/* This is the place where the download of the resume file will occur. */}
-          <p>resume</p>
-        </div>
+          {/* <p>resume</p> */}
+        {/* </div> */}
       </div>
 
       <div className="youtubeDiv">

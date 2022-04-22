@@ -1,6 +1,5 @@
 import './Home.css'
-import Logo from '../resources/images/BrandonLogo.png'
-import backgroundGif from '../../pics_videos/test.gif'
+import Logo from '../../assets/images/BrandonLogo.png'
 
 function Home(){
   return (

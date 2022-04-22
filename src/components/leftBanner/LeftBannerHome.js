@@ -1,5 +1,5 @@
-import './LeftBannerHome.css';
-import brandon_headshot from '../resources/images/brandon_headshot.png';
+import './LeftBannerHome.css'
+import brandon_headshot from '../../assets/images/brandon_headshot.png'
 
 function LeftBannerHome(){
   

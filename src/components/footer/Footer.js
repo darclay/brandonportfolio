@@ -23,7 +23,7 @@ function Footer(){
       <div className="resumeDiv">
         <div className="resumeIcon footerIcon">
           {/* This is the place where the download of the resume file will occur. */}
-          <img className="backgroundGIF" src="https://media1.giphy.com/media/ki29bvF1a9RwSijPGB/giphy.gif?cid=ecf05e47cj4xabpnalt56byc7205e0hnwzoyunuu05ax8ma0&rid=giphy.gif&ct=g"></img>
+          <a className="resumeDownload" href="#" target="_blank"><p>resume</p></a>
         </div>
       </div>
 

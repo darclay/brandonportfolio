@@ -39,9 +39,12 @@
 #newEd {
   padding-top: 1em;
 }
-.abcd {
+.backgroundGIF {
+  opacity: 0.8;
   position: absolute;
   right: 0;
   top: 0;
-  background-color: aqua;
+  width: calc(100vw - 300px);
+  height: calc(100vh - 100px);
+  z-index: -1;
 }

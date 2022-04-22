@@ -2,12 +2,12 @@ import Carousel from 'react-bootstrap/Carousel'
 
 function ImgSlider() {
   return (
-    <>
+    <div>
     <Carousel variant="dark">
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=First slide&bg=f5f5f5"
+      src="https://i.imgur.com/JTRz64A.png"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -18,7 +18,7 @@ function ImgSlider() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=Second slide&bg=eee"
+      src="https://i.imgur.com/UoEZ0Va.png"
       alt="Second slide"
     />
     <Carousel.Caption>
@@ -29,7 +29,7 @@ function ImgSlider() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=e5e5e5"
+      src="https://i.imgur.com/1PrjSZh.png"
       alt="Third slide"
     />
     <Carousel.Caption>
@@ -38,7 +38,7 @@ function ImgSlider() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-    </>
+    </div>
   )
 }
 

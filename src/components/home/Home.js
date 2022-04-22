@@ -1,5 +1,6 @@
 import './Home.css'
 import Logo from '../../assets/images/BrandonLogo.png'
+import LittleFoot from '../../assets/gifs/littlefoot.gif'
 import ImgSlider from '../carousel/ImgSlider';
 
 function Home(){
@@ -7,6 +8,10 @@ function Home(){
     <div className="HomeDiv">
       <div className="logoDiv">
         <img className="logo" src={Logo}></img>
+      </div>
+
+      <div className="backgroundGIF">
+        <img className="backgroundGIF" src={LittleFoot}></img>
       </div>
 
       <div className="infoDiv">

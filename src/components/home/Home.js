@@ -22,10 +22,14 @@ export default function Home(){
             <hr></hr>
           </div>
           <div className="educationInfo">
-            <p className="educationSpacing">Highlands Ranch Highschool</p>
-            <p>Highschool Diploma - 2020</p>
-            <p id="newEd">Don Bluth University</p>
-            <p>Certificate Program - 2022</p>
+            <p className="educationSpacing">
+              Highlands Ranch Highschool<br/>
+              Highschool Diploma - 2020
+            </p>
+            <p id="newEd">
+              Don Bluth University<br/>
+              Certificate Program - 2022
+            </p>
           </div>
         </div>
 
@@ -35,7 +39,12 @@ export default function Home(){
             <hr></hr>
           </div>
           <div className="experienceInfo">
-            <p>“Draftsmanship, Intro to Animation, Animation Timing, Art of Storyboarding, Art of Layout, Principles of Acting, Script Writing, Producing a Short” </p>
+            <p>
+            “Draftsmanship, Intro to Animation,<br/> 
+            Animation Timing, Art of Storyboarding,<br/>
+            Art of Layout, Principles of Acting,<br/>
+            Script Writing, Producing a Short”
+            </p>
             <p>Don Bluth Univ. 2022</p>
           </div>
         </div>

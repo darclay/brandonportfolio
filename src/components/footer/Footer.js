@@ -23,7 +23,6 @@ export default function Footer(){
 
       <div className="resumeDiv">
         <div className="resumeIcon footerIcon">
-          {/* This is the place where the download of the resume file will occur. */}
           <a className="resumeDownload" href={Resume} target="_blank"><p>resume</p></a>
         </div>
       </div>

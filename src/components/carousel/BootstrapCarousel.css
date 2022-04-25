@@ -1,5 +1,5 @@
 .carousel-inner {
-  height: 400px;
+  height: 350px;
 }
 .carousel-item {
   height: 100%;
@@ -9,7 +9,7 @@
 .carousel-inner img {
   height: 100%;
   width: auto!important;
-  padding-left: 33%;
+  padding-left: 40%;
 }
 .carousel-caption {
   padding-top: 35px;

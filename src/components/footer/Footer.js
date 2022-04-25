@@ -1,7 +1,7 @@
 import './Footer.css'
 import imgurPic from '../../assets/icons/imgur.png'
 import youtubePic from '../../assets/icons/youtube.png'
-import Resume from '../../assets/docs/test_resume.pdf'
+import Resume from '../../assets/docs/brandon_resume.pdf'
 
 
 export default function Footer(){

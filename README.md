@@ -4,7 +4,6 @@ This site is dedicated to Brandon Gurule.  Brandon is a practicing animator with
 # MVP GOALS
 The minimal viable product for Brandon's Portfolio is:
 Viewable frontend site which show cases Brandon's Bio and his work.
-Have a administrative login, which will give the site administrator access to add, edit, and delete projects.  These will include: name of project, a description, up to three photos of said project.
 
 ## Libraries, Dependencies, & Scripts
 
@@ -24,20 +23,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 This is used for directing the user through React Components.
 [React Router Docs](https://reactrouter.com/docs/en/v6)
 
-### Airtable
-This is the database used for all data used on this site.
-[PostgreSQL Documentation](https://www.airtable.com/)
-
-### JWT and bcrypt
-This is used for user athentication and building JSON web tokens.
-
 ### Netlify
 This site is published on Netlify.  
 [Netlify Docs](https://docs.netlify.com/) 
-
-### Heroku
-This is the deployed database.
-[Documentation](https://devcenter.heroku.com/categories/reference)
 
 ### WireFrame
 Home

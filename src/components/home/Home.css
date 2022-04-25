@@ -4,6 +4,11 @@
   top: 0px;
   width: calc(100vw - 300px);
   height: calc(100vh - 153px);
+  overflow: hidden;
+}
+.logoDiv {
+  display: flex;
+  justify-content: center;
 }
 .logo {
   padding-top: 20px;
@@ -40,11 +45,16 @@
   padding-top: 1em;
 }
 .backgroundGIF {
-  opacity: 0.8;
+  opacity: 0.75;
   position: absolute;
   right: 0;
   top: 0;
   width: calc(100vw - 300px);
   height: calc(100vh - 100px);
   z-index: -1;
+}
+.carouselWrapper {
+  height: 500px;
+  padding:25px;
+  overflow: hidden;
 }

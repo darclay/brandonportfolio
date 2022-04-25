@@ -1,7 +1,7 @@
 import './LeftBannerHome.css'
 import brandon_headshot from '../../assets/images/brandon_headshot.png'
 
-function LeftBannerHome(){
+export default function LeftBannerHome(){
   
   return (
     <div className="LeftBannerHomeDiv">
@@ -17,6 +17,4 @@ function LeftBannerHome(){
 
     </div>
   )
-};
-
-export default LeftBannerHome;
+}

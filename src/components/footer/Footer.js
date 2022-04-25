@@ -1,9 +1,10 @@
 import './Footer.css'
 import imgurPic from '../../assets/icons/imgur.png'
 import youtubePic from '../../assets/icons/youtube.png'
+import Resume from '../../assets/docs/test_resume.pdf'
 
 
-function Footer(){
+export default function Footer(){
   
   return(
     <div className="footerDiv">
@@ -23,7 +24,7 @@ function Footer(){
       <div className="resumeDiv">
         <div className="resumeIcon footerIcon">
           {/* This is the place where the download of the resume file will occur. */}
-          <a className="resumeDownload" href="#" target="_blank"><p>resume</p></a>
+          <a className="resumeDownload" href={Resume} target="_blank"><p>resume</p></a>
         </div>
       </div>
 
@@ -34,5 +35,3 @@ function Footer(){
     </div>
   )
 }
-
-export default Footer;

@@ -1,9 +1,10 @@
 import './Home.css'
 import Logo from '../../assets/images/BrandonLogo.png'
 import LittleFoot from '../../assets/gifs/littlefoot.gif'
-import ImgSlider from '../carousel/ImgSlider';
+import BootstrapCarousel from '../carousel/BootstrapCarousel';
+import { Link } from 'react';
 
-function Home(){
+export default function Home(){
   return (
     <div className="HomeDiv">
       <div className="logoDiv">
@@ -41,11 +42,9 @@ function Home(){
       </div>
 
       <div className="carouselWrapper">
-        <ImgSlider />
+        <BootstrapCarousel/>
       </div>
     
     </div>
   );
 };
-
-export default Home;

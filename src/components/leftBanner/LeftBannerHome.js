@@ -9,10 +9,10 @@ export default function LeftBannerHome(){
         <img src={brandon_headshot}></img>
       </div>
       <div className="missionTitle">
-        <h2 className="title">MISSION STATEMENT</h2>
+        <h2 className="title">BRANDON GURULE</h2>
       </div>
       <div className="missionStatement">
-        <p className="statement">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p className="statement">As far back as I can remember, I have always wanted to tell stories. I was inspired by many works of art, but notibly, I was inspired by the work of ex-Disney animator, Don Bluth." </p>
       </div>
 
     </div>

@@ -12,7 +12,7 @@ export default function LeftBannerHome(){
         <h2 className="title">BRANDON GURULE</h2>
       </div>
       <div className="missionStatement">
-        <p className="statement">As far back as I can remember, I have always wanted to tell stories. I was inspired by many works of art, but notibly, I was inspired by the work of ex-Disney animator, Don Bluth." </p>
+        <p className="statement">As far back as I can remember, I have always wanted to tell stories. I was inspired by many works of art, but notibly, I was inspired by the work of Don Bluth and Stephen Hillenburg." </p>
       </div>
 
     </div>

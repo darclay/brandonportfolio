@@ -1,5 +1,6 @@
 import './Footer.css'
 import imgurPic from '../../assets/icons/imgur.png'
+import resumeIcon from '../../assets/icons/resume.png'
 import Resume from '../../assets/docs/brandon_resume.pdf'
 
 
@@ -20,7 +21,9 @@ export default function Footer(){
         <li>
           <a className="links" href={Resume} target="_blank">
             <div className="footerIcon resumeIcon">
-              <p className="resumeText">resume</p>
+              {/* <p className="resumeText">resume</p> */}
+              <img className="resumePic" src={resumeIcon} alt="resume icon"/>
+
             </div>
           </a>
         </li>

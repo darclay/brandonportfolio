@@ -54,3 +54,8 @@
   height: calc(100vh - 100px);
   z-index: -1;
 }
+@media screen and (max-width: 950px){
+  .HomeDiv{
+    display: none;
+  }
+}

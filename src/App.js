@@ -4,17 +4,16 @@ import LeftBannerHome from './components/leftBanner/LeftBannerHome'
 import Home from './components/home/Home'
 
 export default function App() {
-  console.log("hello world")
   
   return (
     <Router>
       <Routes>
         <Route path="/" element={
-          <>
-          <LeftBannerHome/>
-          <Home/>
-          <Footer/>
-          </>
+          <div className="AppDiv">
+            <LeftBannerHome/>
+            <Home />
+            <Footer/>
+          </div>
         }/>
       </Routes>
     </Router>

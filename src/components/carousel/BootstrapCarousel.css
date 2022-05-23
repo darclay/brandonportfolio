@@ -1,16 +1,19 @@
 .carousel-inner {
-  height: 350px;
+  height: 325px;
+  width: calc(100vw - 600px);
+  display: flex;
+  justify-content: center;
 }
 .carousel-item {
   height: 100%;
 }
-.carousel-inner {
-}
 .carousel-inner img {
   height: 100%;
   width: auto!important;
-  padding-left: 40%;
 }
-.carousel-caption {
-  padding-top: 35px;
+
+@media screen and (max-height: 719px) {
+  .carousel{
+    display: none;
+  }
 }

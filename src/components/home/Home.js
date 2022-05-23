@@ -40,10 +40,8 @@ export default function Home(){
           </div>
           <div className="experienceInfo">
             <p>
-            “Draftsmanship, Intro to Animation,<br/> 
-            Animation Timing, Art of Storyboarding,<br/>
-            Art of Layout, Principles of Acting,<br/>
-            Script Writing, Producing a Short”
+            “Draftsmanship, Intro to Animation, Animation Timing, Art of Storyboarding,<br/>
+            Art of Layout, Principles of Acting, Script Writing, Producing a Short”
             </p>
             <p>Don Bluth Univ. 2022</p>
           </div>

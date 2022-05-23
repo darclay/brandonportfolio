@@ -2,17 +2,16 @@ import './Home.css'
 import Logo from '../../assets/images/BrandonLogo.png'
 import LittleFoot from '../../assets/gifs/littlefoot.gif'
 import BootstrapCarousel from '../carousel/BootstrapCarousel';
-import { Link } from 'react';
 
 export default function Home(){
   return (
     <div className="HomeDiv">
       <div className="logoDiv">
-        <img className="logo" src={Logo}></img>
+        <img className="logo" src={Logo} alt="brandon logo"></img>
       </div>
 
       <div className="backgroundGIF">
-        <img className="backgroundGIF" src={LittleFoot}></img>
+        <img className="backgroundGIF" src={LittleFoot} alt="littlefoot gif"></img>
       </div>
 
       <div className="infoDiv">

@@ -6,7 +6,7 @@ export default function LeftBannerHome(){
   return (
     <div className="LeftBannerHomeDiv">
       <div className="headshotDiv">
-        <img src={brandon_headshot}></img>
+        <img src={brandon_headshot} alt="brandon headshot"></img>
       </div>
       <div className="missionTitle">
         <h2 className="title">BRANDON GURULE</h2>
